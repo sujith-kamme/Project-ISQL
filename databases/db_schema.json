@@ -1,0 +1,43 @@
+{
+    "movies": {
+        "movie": [
+            "movie_1.csv",
+            "movie_2.csv",
+            "movie_3.csv",
+            "movie_4.csv",
+            "movie_5.csv",
+            "movie_6.csv"
+        ],
+        "ratings": [
+            "ratings_1.csv",
+            "ratings_2.csv",
+            "ratings_3.csv",
+            "ratings_4.csv",
+            "ratings_5.csv",
+            "ratings_6.csv",
+            "ratings_7.csv",
+            "ratings_8.csv",
+            "ratings_9.csv",
+            "ratings_10.csv",
+            "ratings_11.csv",
+            "ratings_12.csv"
+        ],
+        "votes": [
+            "votes_1.csv",
+            "votes_2.csv",
+            "votes_3.csv",
+            "votes_4.csv"
+        ],
+        "users": [
+            "users.csv"
+        ]
+    },
+    "sample": {
+        "left": [
+            "left.csv"
+        ],
+        "right": [
+            "right.csv"
+        ]
+    }
+}
