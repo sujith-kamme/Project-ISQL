@@ -7,15 +7,17 @@ Project ISQL is aimed to develop a custom query language for querying a local da
 
 **Architecture design**
 
+
 <img width="350" alt="image" src="https://github.com/sujith-kamme/Project-ISQL/assets/142932988/ca297286-95de-4687-81b3-3ed4cefa8060">
 
 
 **Process Flow Digram**
 
+
 <img width="274" alt="image" src="https://github.com/sujith-kamme/Project-ISQL/assets/142932988/7e24ff0e-146a-4277-9988-a4e704f75469">
 
 
-### **To run**
+
 To run the project, please go through the following instructions.
 1. Install dependencies
   •	pandas
@@ -28,6 +30,7 @@ To run the project, please go through the following instructions.
  
 
 Here are some sample queries:
+
 #command to display all databases
 display databases
 
@@ -68,7 +71,7 @@ print original_language movie_id.count in movie group original_language with mov
 print original_language movie_id.count in movie group original_language with movie_id.count > 10 sort movie_id.count
 print original_language movie_id.count in movie if genres asin Action group original_language with movie_id.count > 10 sort movie_id.count
 print movie_id rating_val in movie join ratings condition movie_id = movie_id
-print movie_id rating_val in movie join ratings condition movie_id = movie_id sort movie_id
+print movie_id rating_val in movie join ratings 
 
 
 **Important instructions** 
