@@ -1,22 +1,18 @@
 # Project-ISQL
-Custom Query Language for local databases
 
-Project ISQL is aimed to develop a custom query language for querying a local database of files. This query language draws inspiration from SQL but incorporates refreshed new-age syntax and incorporates querying capability features to file based databases stored locally. ISQL uses relational data model i.e., Data will be stored in the form of tables. It supports projection (selecting a subset of rows), filtering (selecting rows), join (e.g., combining multiple data tables), grouping, aggregation, and ordering. In addition, it also supports creating databases and tables, support CRUD operation on the data. One of the key aspects of project ISQL is its efficient handling of large datasets by implementing a chunk-based data processing approach. Unlike traditional database systems that load the entire dataset into memory, ISQL processes data in manageable chunks. This design choice is to ensure scalability of the database system. Project ISQL is made accessible to users using the CLI application.
+**Custom Query Language for local databases**
 
-<img width="400" alt="image" src="https://github.com/sujith-kamme/Project-ISQL/assets/142932988/68c9a365-5486-4687-9b59-8147d0696e03">
+Project ISQL is an innovative approach to developing a custom query language for efficiently querying local file-based databases. Drawing inspiration from SQL, ISQL incorporates a modern syntax and introduces enhanced querying capabilities tailored for file-based databases stored locally. The system utilizes a relational data model where data is organized in tables, supporting various operations such as projection, filtering, join, grouping, aggregation, and ordering. Additionally, ISQL allows users to create databases and tables, and it supports CRUD operations on the data. One of the notable features of Project ISQL is its efficient handling of large datasets, employing a chunk-based data processing approach to ensure scalability.
 
-**Architecture design**
+![Project-ISQL](https://github.com/sujith-kamme/Project-ISQL/assets/142932988/68c9a365-5486-4687-9b59-8147d0696e03)
 
+## Architecture Design
 
-<img width="350" alt="image" src="https://github.com/sujith-kamme/Project-ISQL/assets/142932988/ca297286-95de-4687-81b3-3ed4cefa8060">
+![Architecture Design](https://github.com/sujith-kamme/Project-ISQL/assets/142932988/ca297286-95de-4687-81b3-3ed4cefa8060)
 
+## Process Flow Diagram
 
-**Process Flow Digram**
-
-
-<img width="274" alt="image" src="https://github.com/sujith-kamme/Project-ISQL/assets/142932988/7e24ff0e-146a-4277-9988-a4e704f75469">
-
-
+![Process Flow Diagram](https://github.com/sujith-kamme/Project-ISQL/assets/142932988/7e24ff0e-146a-4277-9988-a4e704f75469)
 
 ## Getting Started
 
