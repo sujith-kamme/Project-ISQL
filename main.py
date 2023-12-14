@@ -7,7 +7,7 @@ print('''Welcome to
  |_ _|/ ___|  / _ \ | |    
   | | \___ \ | | | || |    
   | |  ___) || |_| || |___ 
- |___||____/  \__\_\|_____| version 1.1
+ |___||____/  \__\_\|_____| version 1.0
       
 To exit the application, please type "exit" or "quit".
       ''')
