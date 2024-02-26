@@ -1,6 +1,6 @@
 # Project-ISQL
 
-**Custom Query Language for local databases**
+**Custom Query Language for local databases employing chunk-based data processing approach assuming limited main memory to ensure scalability..**
 
 Project ISQL is an innovative approach to developing a custom query language for efficiently querying local file-based databases. Drawing inspiration from SQL, ISQL incorporates a modern syntax and introduces enhanced querying capabilities tailored for file-based databases stored locally. The system utilizes a relational data model where data is organized in tables, supporting various operations such as projection, filtering, join, grouping, aggregation, and ordering. Additionally, ISQL allows users to create databases and tables, and it supports CRUD operations on the data. One of the notable features of Project ISQL is its efficient handling of large datasets, employing a chunk-based data processing approach to ensure scalability.
 
